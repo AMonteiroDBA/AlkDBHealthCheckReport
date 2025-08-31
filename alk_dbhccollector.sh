@@ -12,7 +12,7 @@ BASE_DIR="${SISDBA_HOME}/healthcheck/$(date +%Y-%m)"
 
 # Cria os diretórios necessários.
 # Os diretórios são criados se não existirem, garantindo que o script não falhe.
-mkdir -p $BASE_DIR/{statspack,oswatcher,system_info}
+mkdir -p $BASE_DIR/{statspack,oswatcher,system_info,templates}
 
 # 1. Automatiza a coleta e geração do relatório do STATSPACK.
 # Esta parte do script automatiza a interação com o spreport.sql, que é interativo.
